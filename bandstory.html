@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>品牌介紹頁 - Celia</title>
+  <script type="module" crossorigin src="/Mission7/assets/main-BPqEeiLI.js"></script>
+  <link rel="stylesheet" crossorigin href="/Mission7/assets/main-niWde0dk.css">
 </head>
 <body>
-  <%- include('./layout/header'); -%>
-
+    <div class="container">
+    <header class="my-16 py-sm-12 flex aic jcsb">
+            <div class="header-left flex aic">
+                <a href="index.html"><img src="/Mission7/assets/logo-RhEl2I3y.svg" alt="logo" class="logo mx-12 mr-48"></a>
+                <a href="productlist.html" class="text-md mr-40 d-sm-none textN-900">商品列表</a>
+                <a href="bandstory.html" class="text-md d-sm-none textN-900">品牌故事</a>
+            </div>
+            <a href="#" class="p-12 textN-900"><i class="bi bi-person"></i></a>
+    </header>
+  </div>
   <section class="header-img py-151">
     <h1 class="h1 text-white pb-16 h3-md">品牌故事 </h1>
     <h3 class="h3 text-white eng-title">Brand Story</h3>
@@ -25,7 +35,7 @@
           </div>
       </div>
       <div class="col-10 col-md-4">
-          <img src="/assets/images/about.png" alt="shoes" class="intro-img pb-24 intro-md-img pb-sm-16">
+          <img src="/Mission7/assets/about-hxZtk1pT.png" alt="shoes" class="intro-img pb-24 intro-md-img pb-sm-16">
       </div>
 
       <div class="col-8 col-md-4">
@@ -65,9 +75,31 @@
       </div>
     </div>
   </main>
-  <%- include('./layout/footer_login'); -%>
-  <%- include('./layout/footer'); -%>
-  <script type="module" src="../main.js"></script>     
+  
+    <div class="section sign-bg py-24">
+            <ul class="flex aic jcc">
+                <li><h4 class="h4 h5-md mr-24 mr-sm-16">加入會員取得 9 折優惠</h4></li>
+                <li class="">
+                    <button type="button" class="btn sign-btn sign-md-btn" >
+                        馬上註冊
+                    </button>
+                </li>
+            </ul>
+    </div>  <div class="ft-color">
+    <footer class="container py-64 py-sm-32">
+        <div class="flex aic jcsb pb-24 d-sm-block">
+            <a href="/index.html"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e1ad10bd2260f80c5f65be5bfc5042790a261115/2025-week1/logo.svg" alt="logo" class="logo mx-12 mr-48"></a>
+            <div class="footer-right flex aic d-sm-block">
+                <p class="text-md mr-40 px-sm-12 pb-sm-8 mr-sm-0">商品列表</p>
+                <p class="text-md px-sm-12">品牌故事</p>
+            </div>
+        </div>
+        <div class="footer-rights lined-top">
+            <p class="text-sm textN-600">Copyright ©2025 URBNSTYLE</p>
+            <p class="text-sm textN-600">All Rights Reserved.</p>
+        </div>
+    </footer>    
+</div>        
 
 </body>
 </html>
